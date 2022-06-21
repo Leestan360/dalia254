@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+}
+
+.navigation .nav {
+    margin: 1.2rem;
+    font-size: 1.5rem;
+}
+
+.navigation .navbar {
+    display: flex;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+    
+}
+
+.navigation .navbar p {
+    margin-left: 1.5rem;
+    cursor: pointer;
+}
+
+.navigation .navbar p button {
+    padding: 0.1rem;
+    padding-right: 0.7rem;
+    padding-left: 0.7rem;
+    font-size: 1.3rem;
+    margin-top: -0.5rem;
+    cursor: pointer;
+}
