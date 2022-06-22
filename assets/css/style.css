@@ -28,6 +28,10 @@
     cursor: pointer;
 }
 
+.navigation .navbar p:hover {
+    color: #20d4e0;
+}
+
 .navigation .navbar p button {
     padding: 0.3rem;
     padding-right: 0.7rem;
@@ -104,4 +108,18 @@
 .footer .footer-1 .fa-solid {
     margin-left: 1rem;
     cursor: pointer;
+}
+
+.footer .about {
+    margin-top: 2rem;
+    cursor: pointer;
+    display: flex;
+    font-size: 1.2rem;
+}
+.footer .about .home, .service, .contact {
+    margin-left: 1rem;
+}
+
+.about p:hover {
+    color: #20d4e0;
 }
