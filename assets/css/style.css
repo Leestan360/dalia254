@@ -40,12 +40,34 @@
     border: 1px solid #20d4e0;
 }
 
-.welcome {
+.welcome-message {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2rem;
     margin-left: 2.4rem;
+}
+
+.welcome-message .welcome {
     font-size: 2.9rem;
     /* font-weight: 100; */
 }
 
-.welcome > .fa-solid {
-    background-color: yellow;
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.main > .event {
+    border: 1px solid lightgray;
+    border-radius: 0.5rem;
+    height: 25rem;
+    width: 50rem;
+}
+
+.main .calendar {
+    border: 1px solid lightgray;
+    border-radius: 0.5rem;
+    height: 25rem;
+    width: 24rem;
 }
