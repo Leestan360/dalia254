@@ -79,4 +79,11 @@
 .footer {
     border-top: 1px solid lightgray;
     padding: 2rem;
+    background-color: rgb(20, 20, 20);
+    color:lightgray;
+}
+
+.footer .footer-1 {
+    display: flex;
+    justify-content: space-between;
 }
