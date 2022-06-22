@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Poppins", sans-serif;
 }
 
 .navigation {
@@ -11,14 +12,15 @@
 
 .navigation .nav {
     margin: 1.2rem;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    font-style: italic;
+    color: rgb(238, 58, 58);
 }
 
 .navigation .navbar {
     display: flex;
     margin: 1.5rem;
     font-size: 1.5rem;
-    
 }
 
 .navigation .navbar p {
