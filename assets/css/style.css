@@ -83,7 +83,25 @@
     color:lightgray;
 }
 
+.footer a {
+    color: lightgray;
+}
+
+.footer a:hover {
+    color: #20d4e0;
+}
+
 .footer .footer-1 {
     display: flex;
     justify-content: space-between;
+}
+
+.footer .footer-1 .fa-brands {
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.footer .footer-1 .fa-solid {
+    margin-left: 1rem;
+    cursor: pointer;
 }
