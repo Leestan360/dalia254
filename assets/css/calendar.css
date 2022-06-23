@@ -7,7 +7,7 @@
 .cont {
     width: 24rem;
     height: 25rem;
-    background-color: #222227;
+    background-color: rgb(20, 20, 20);
     border-radius: 0.5rem;
     border: none;
     color: white;
@@ -15,7 +15,7 @@
   
 
 .month {
-    color:#222227;
+    color:rgb(20, 20, 20);
     display: flex;
     justify-content: space-between;
     padding: 1rem;
