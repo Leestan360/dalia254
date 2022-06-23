@@ -2,19 +2,19 @@
     "upcomingEvents": [
         {
             "id": 1,
-            "name": "Dance Club",
-            "description":"Will be attended by a certain number",
+            "name": "Friday Bash",
+            "description":"The will be held at Laviva Lounge on the Friday of this month. The number of people invited is 100. You are allowed in only if invited",
             "image": "./assets/images/event1.jpg",
-            "time": "June 24th 2022, 1400",
-            "charge": 80000
+            "time": "June 23th 2022, 1400",
+            "cost": 80000
         },
         {
             "id": 2,
             "name": "Marriage Proposal",
-            "description":"Will be attended by a certain number",
+            "description":"The event will be held at Juja Acarde. ",
             "image": "./assets/images/event2.jpg",
             "dateAndTime": "June 24th 2022, 1400",
-            "charge": 100000
+            "cost": 100000
         },
         {
             "id": 3,
@@ -22,7 +22,7 @@
             "description":"Will be attended by a certain number",
             "image": "./assets/images/event3.jpg",
             "time": "June 26th 2022, 1400",
-            "charge": 50000
+            "cost": 50000
         }
     ],
     "weddings": [
@@ -33,7 +33,7 @@
             "dateAndTime": "June 24th 2022, 1000",
             "description": "Will be attended by a certain number",
             "numberOfPeople": 200,
-            "totalCost": 100000
+            "cost": 100000
         },
         {
             "id": 2,
@@ -42,7 +42,7 @@
             "dateAndTime": "June 25th 2022, 1000",
             "description": "Will be attended by a certain number",
             "numberOfPeople": 100,
-            "totalCost": 150000
+            "cost": 150000
         },
         {
             "id": 3,
@@ -51,8 +51,16 @@
             "dateAndTime": "June 26th 2022, 1000",
             "description": "Will be attended by a certain number",
             "numberOfPeople": 200,
-            "totalCost": 100000
+            "cost": 100000
         }
     ],
-    "users": []
+    "users": [
+        {
+            "id": 1,
+            "userName": "Stanley",
+            "firstName": "Stanley",
+            "secondName": "Mayore",
+            "password": "12345678"
+        }
+    ]
 }

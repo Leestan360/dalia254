@@ -8,16 +8,10 @@ const weddingsData = "https://dahlia254-server.herokuapp.com/weddings";
 const usersData = "https://dahlia254-server.herokuapp.com/users";
 
 const eventImage = document.getElementById("image");
+const loginButton = document.getElementById("btn1");
+const signUpButton = document.getElementById("btn2");
 
-function eventOfTheDay(upcomingEvents) {
-    const image1 = document.createElement("img")
-    image1.innerHTML = upcomingEvents[0].image;
-    eventImage.appendChild(image1);
+// loginButton.addEventListener("click", () => {
+//     const userName = 
+// })
 
-}
-
-function fetchEvents() {
-    fetch(upcomingEventsData)
-    .then(response => response.json())
-    .then()
-}
