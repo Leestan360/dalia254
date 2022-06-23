@@ -3,6 +3,21 @@ document.addEventListener("DOMContentLoaded", (e) => {
     console.log("The DOM has loaded");
 });
 
-const upcomingEventsData = "http://localhost:3000/upcomingEvents";
-const weddingsData = "http://localhost:3000/weddings";
-const usersData = "http://localhost:3000/users";
+const upcomingEventsData = "https://dahlia254-server.herokuapp.com/upcomingEvents";
+const weddingsData = "https://dahlia254-server.herokuapp.com/weddings";
+const usersData = "https://dahlia254-server.herokuapp.com/users";
+
+const eventImage = document.getElementById("image");
+
+function eventOfTheDay(upcomingEvents) {
+    const image1 = document.createElement("img")
+    image1.innerHTML = upcomingEvents[0].image;
+    eventImage.appendChild(image1);
+
+}
+
+function fetchEvents() {
+    fetch(upcomingEventsData)
+    .then(response => response.json())
+    .then()
+}
