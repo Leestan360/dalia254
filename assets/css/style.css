@@ -92,6 +92,12 @@
     height: 25rem;
 }
 
+/* .event #image img:hover {
+    width: 35rem;
+    height: 27rem;
+    cursor: pointer;
+} */
+
 .event #image-content {
     width: 18rem;
 }
