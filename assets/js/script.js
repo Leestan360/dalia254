@@ -3,10 +3,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
     console.log("The DOM has loaded");
 });
 
-const dataAPI = http
-
-function fetchData(data) {
-    fetch("http://localhost:3000/upcomingEvents")
-    .then(res => res.json())
-    .then(data => console.log(data))
-}
+const upcomingEventsData = "http://localhost:3000/upcomingEvents";
+const weddingsData = "http://localhost:3000/weddings";
+const usersData = "http://localhost:3000/users";
