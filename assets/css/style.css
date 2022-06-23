@@ -82,6 +82,8 @@
     border-radius: 0.5rem;
     height: 25rem;
     width: 50rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .main .calendar {
