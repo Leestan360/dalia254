@@ -26,7 +26,7 @@
         {
             "id": 1,
             "place": "Nairobi church",
-            "image": "",
+            "image": "./assets/images/wedding1.jpg",
             "dateAndTime": "June 24th 2022, 1000",
             "numberOfPeople": 200,
             "totalCost": 100000
