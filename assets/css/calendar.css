@@ -1,38 +1,55 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Poppins", sans-serif;
 }
 
+.cont {
+    width: 24rem;
+    height: 25rem;
+    background-color: #222227;
+    border-radius: 0.5rem;
+    border: none;
+    color: white;
+}
+  
+
 .month {
+    color:#222227;
     display: flex;
     justify-content: space-between;
     padding: 1rem;
     background-color: #20d4e0;
+    border: 1px solid #20d4e0;
     border-radius: 0.5rem 0.5rem 0 0;
+    align-items: center;
     text-align: center;
     cursor: pointer;
 }
 
-.month .date h2 {
+.days1 h2 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
 }
 
-.month .date p {
+.days1 p {
     font-size: 1rem;
 }
 
 .days2 {
+    width: 100%;
     display: flex;
-    padding: 0.2rem 0.3rem;
+    padding: 0.4rem 0.4rem;
     font-size: 1.3rem;
     align-items: center;
 }
 
 .days2 div {
-    margin: 0.5rem;
     font-weight: 350;
-    width: calc(23rem / 7);
+    width: calc(23.2rem / 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .days3 {
@@ -44,9 +61,26 @@
 
 .days3 div {
     font-size: 1rem;
-    margin: 0.1rem;
-    width: calc(22.5rem / 7);
-    height: 1rem;
+    margin: 0.2rem;
+    width: calc(21rem / 7);
+    height: 5rem;
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+    transition: background-color 0.2s;
+}
+
+.days3 div:hover:not(.present) {
+    background-color: #262626;
+    border: 0.2rem solid #777;
+    cursor: pointer;
+}
+
+.previous, .next-day {
+  opacity: 0.5;
+}
+
+.present {
+  background-color: #20d4e0;
 }
