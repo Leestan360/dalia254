@@ -1,0 +1,52 @@
+{
+    "upcomingEvents": [
+        {
+            "id": 1,
+            "name": "Spiderman Home Runaway",
+            "image": "",
+            "time": "June 24th 2022, 1400",
+            "charge": 10
+        },
+        {
+            "id": 2,
+            "name": "Morbius",
+            "image": "",
+            "dateAndTime": "June 24th 2022, 1400",
+            "charge": 10
+        },
+        {
+            "id": 3,
+            "name": "Doctor Strange 2",
+            "image": "",
+            "time": "June 26th 2022, 1400",
+            "charge": 10
+        }
+    ],
+    "weddings": [
+        {
+            "id": 1,
+            "place": "Nairobi church",
+            "image": "",
+            "dateAndTime": "June 24th 2022, 1000",
+            "numberOfPeople": 200,
+            "totalCost": 100000
+        },
+        {
+            "id": 2,
+            "place": "Juja Courts",
+            "image": "",
+            "dateAndTime": "June 25th 2022, 1000",
+            "numberOfPeople": 100,
+            "totalCost": 150000
+        },
+        {
+            "id": 3,
+            "place": "Nairobi church",
+            "image": "",
+            "dateAndTime": "June 26th 2022, 1000",
+            "numberOfPeople": 200,
+            "totalCost": 100000
+        }
+    ],
+    "users": []
+}
