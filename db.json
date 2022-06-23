@@ -2,24 +2,27 @@
     "upcomingEvents": [
         {
             "id": 1,
-            "name": "",
-            "image": "",
+            "name": "Dance Club",
+            "description":"Will be attended by a certain number",
+            "image": "./assets/images/event1.jpg",
             "time": "June 24th 2022, 1400",
-            "charge": 10
+            "charge": 80000
         },
         {
             "id": 2,
-            "name": "Morbius",
-            "image": "",
+            "name": "Marriage Proposal",
+            "description":"Will be attended by a certain number",
+            "image": "./assets/images/event2.jpg",
             "dateAndTime": "June 24th 2022, 1400",
-            "charge": 10
+            "charge": 100000
         },
         {
             "id": 3,
-            "name": "Doctor Strange 2",
-            "image": "",
+            "name": "Friends Party",
+            "description":"Will be attended by a certain number",
+            "image": "./assets/images/event3.jpg",
             "time": "June 26th 2022, 1400",
-            "charge": 10
+            "charge": 50000
         }
     ],
     "weddings": [
