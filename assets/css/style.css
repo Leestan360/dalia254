@@ -115,6 +115,14 @@
     text-align: center;
 }
 
+.event #image-content h3 {
+    margin: 0.6rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+
 .event #image-content p button {
     padding: 0.3rem;
     padding-right: 1rem;
