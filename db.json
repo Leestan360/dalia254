@@ -2,7 +2,7 @@
     "upcomingEvents": [
         {
             "id": 1,
-            "name": "Spiderman Home Runaway",
+            "name": "",
             "image": "",
             "time": "June 24th 2022, 1400",
             "charge": 10
@@ -28,22 +28,25 @@
             "place": "Nairobi church",
             "image": "./assets/images/wedding1.jpg",
             "dateAndTime": "June 24th 2022, 1000",
+            "description": "Will be attended by a certain number",
             "numberOfPeople": 200,
             "totalCost": 100000
         },
         {
             "id": 2,
             "place": "Juja Courts",
-            "image": "",
+            "image": "./assets/images/wedding2.jpg",
             "dateAndTime": "June 25th 2022, 1000",
+            "description": "Will be attended by a certain number",
             "numberOfPeople": 100,
             "totalCost": 150000
         },
         {
             "id": 3,
             "place": "Nairobi church",
-            "image": "",
+            "image": "./assets/images/wedding3.jpg",
             "dateAndTime": "June 26th 2022, 1000",
+            "description": "Will be attended by a certain number",
             "numberOfPeople": 200,
             "totalCost": 100000
         }
