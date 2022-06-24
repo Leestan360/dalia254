@@ -10,9 +10,15 @@ const eventImage = document.getElementById("image");
 const loginButton = document.getElementById("btn1");
 const signUpButton = document.getElementById("btn2");
 
-loginButton.onclick = function() {
-    document.getElementsById("signUp").style.display = "block";
-}
+loginButton.addEventListener("click", () => {
+    const signIn = document.getElementById("signIn");
+    signIn.style.display = "block";
+})
+
+signUpButton.addEventListener("click", () => {
+    const signIn = document.getElementById("register");
+    signIn.style.display = "block";
+})
 
 function fetchData() {
     fetch(upcomingEventsData)
