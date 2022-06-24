@@ -297,7 +297,7 @@
     left: 45%;
     transform: translateX(-50%);
     border-radius: 0.7rem;
-    /* display: none; */
+    display: none;
 }
 
 .logIn {
@@ -310,6 +310,7 @@
     margin-left: auto;
     border-radius: 0.7rem;
     padding: 0.7rem;
+    
 }
 
 .logIn input {
