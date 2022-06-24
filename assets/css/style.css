@@ -11,8 +11,6 @@
     position: fixed;
     width: 100%;
     background-color: rgb(20, 20, 20);
-
-    display: none;
 }
 
 .navigation .nav {
@@ -62,8 +60,6 @@
     margin-top: 6rem;
     margin-right: 2rem;
     margin-left: 2.4rem;
-
-    display: none;
 }
 
 .welcome-message .welcome {
@@ -78,8 +74,6 @@
     display: flex;
     justify-content: space-between;
     margin: 2rem;
-
-    display: none;
 }
 
 .main > .event {
@@ -161,8 +155,6 @@
     padding: 2rem;
     background-color: rgb(20, 20, 20);
     color:lightgray;
-
-    display: none;
 }
 
 .footer a {
