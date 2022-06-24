@@ -16,7 +16,6 @@
 .navigation .nav {
     margin: 1.2rem;
     font-size: 1.7rem;
-    font-style: italic;
     color: #ff7200;
 }
 
@@ -213,6 +212,15 @@
     border-radius: 0.7rem;
     display: none;
 }
+
+@media screen and (max-width: 992px) {
+    .signUp {
+        width: 24rem;
+        top: 4rem;
+        left: 30%;
+    }
+  }
+  
 
 .login {
     border: 1px solid lightgray;

@@ -9,16 +9,18 @@ const usersData = "https://dahlia254-server.herokuapp.com/users";
 const eventImage = document.getElementById("image");
 const loginButton = document.getElementById("btn1");
 const signUpButton = document.getElementById("btn2");
+const signUpRedirect = document.getElementById("signOn");
+const logInRedirect = document.getElementById("logOn")
 
 loginButton.addEventListener("click", () => {
     const signIn = document.getElementById("signIn");
     signIn.style.display = "block";
-})
+});
 
 signUpButton.addEventListener("click", () => {
-    const signIn = document.getElementById("register");
-    signIn.style.display = "block";
-})
+    const signUp = document.getElementById("register");
+    signUp.style.display = "block";
+});
 
 function fetchData() {
     fetch(upcomingEventsData)
@@ -43,3 +45,5 @@ function fetchUser() {
 }
 
 fetchUser()
+
+
