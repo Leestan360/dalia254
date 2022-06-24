@@ -7,6 +7,8 @@ const upcomingEventsData = "https://dahlia254-server.herokuapp.com/upcomingEvent
 const weddingsData = "https://dahlia254-server.herokuapp.com/weddings";
 const usersData = "https://dahlia254-server.herokuapp.com/users";
 
+
+// main buttons
 const eventImage = document.getElementById("image");
 const loginButton = document.getElementById("btn1");
 const signUpButton = document.getElementById("btn2");
@@ -21,6 +23,11 @@ const password = document.getElementById("userPassword");
 const confirmPassword = document.getElementById("confirmPassword1");
 const submitButton = document.getElementById("submit")
 
+
+// Login
+const username = document.getElementById("username");
+const userPassword = document.getElementById("userPassword2");
+const subButton = document.getElementById("submitIn");
 
 // Display login form
 loginButton.addEventListener("click", () => {
@@ -82,8 +89,23 @@ setInterval(() => {
     }
 })
 
-submitButton.onclick = function () {
+submitButton.onclick = function (e) {
+    e.preventDefault();
     window.location.href = "../../index.html";
-    var username = userName.value;
     alert("Welcome" + " " + userName.value);
+}
+
+// Login
+setInterval(() => {
+    if (username.value == "" || userPassword.value == "") {
+        subButton.setAttribute("disabled", "");
+    } else {
+        subButton.removeAttribute("disabled");
+    }
+})
+
+subButton.onclick = function (e) {
+    e.preventDefault();
+    window.location.href = "../../index.html";
+    alert("Welcome back" + " " + username.value);
 }
