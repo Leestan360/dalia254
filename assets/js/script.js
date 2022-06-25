@@ -53,44 +53,52 @@ function fetchData() {
     .then(data => console.log(data))
 }
 
-fetchData()
-
 function fetchWedding() {
     fetch(upcomingEventsData)
     .then(response => response.json())
     .then(data => console.log(data))
 }
 
-fetchWedding()
 
-function fetchUser(user1) {
+// Post user to db
+
+const newUser = {
+    username: userName.value,
+    email: userEmail.value,
+    password: password.value,
+    confirmPassword: confirmPassword
+}
+
+function fetchUser(newUser) {
     fetch(usersData, {
         method: "POST",
         headers: {
             "Content-Type": 'application/json',
         },
-        body: JSON.stringify(user1)
+        body: JSON.stringify(newUser)
     })
     .then(response => response.json())
-    .then(user => console.log(user))
+    .then(newUser => console.log(newUser))
 }
 
-fetchUser()
-
+function initializeAll() {
+    fetchUser()
+    fetchData()
+    fetchWedding()
+}
+initializeAll();
 
 // Signup
-
 setInterval(() => {
-    if (userName.value == "" || userEmail.value == "" 
-    || password.value == "" || confirmPassword == "") {
-        submitButton.setAttribute("disabled", "");
+    if (userName.value == "" || userEmail.value == "" ||
+    password.value == "") {
+        submitButton.setAttribute("disabled", "")
     } else {
         submitButton.removeAttribute("disabled");
     }
 })
 
-submitButton.onclick = function (e) {
-    e.preventDefault();
+submitButton.onclick = function () {
     window.location.href = "../../index.html";
     alert("Welcome" + " " + userName.value);
 }
@@ -98,14 +106,14 @@ submitButton.onclick = function (e) {
 // Login
 setInterval(() => {
     if (username.value == "" || userPassword.value == "") {
-        subButton.setAttribute("disabled", "");
+        subButton.setAttribute("disabled", "")
     } else {
         subButton.removeAttribute("disabled");
+        fetchUser()
     }
 })
 
-subButton.onclick = function (e) {
-    e.preventDefault();
+subButton.onclick = function () {
     window.location.href = "../../index.html";
     alert("Welcome back" + " " + username.value);
 }
