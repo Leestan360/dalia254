@@ -1,66 +1,94 @@
 {
-    "upcomingEvents": [
-        {
-            "id": 1,
-            "name": "Friday Bash",
-            "description":"The will be held at Laviva Lounge on the Friday of this month. The number of people invited is 100. You are allowed in only if invited",
-            "image": "./assets/images/event1.jpg",
-            "time": "June 23th 2022, 1400",
-            "cost": "Ksh 80, 000"
-        },
-        {
-            "id": 2,
-            "name": "Marriage Proposal",
-            "description":"The event will be held at Juja Acarde. ",
-            "image": "./assets/images/event2.jpg",
-            "dateAndTime": "June 24th 2022, 1400",
-            "cost": "Ksh 100, 000"
-        },
-        {
-            "id": 3,
-            "name": "Friends Party",
-            "description":"Will be attended by a certain number",
-            "image": "./assets/images/event3.jpg",
-            "time": "June 26th 2022, 1400",
-            "cost": "Ksh 50, 000"
-        }
-    ],
-    "weddings": [
-        {
-            "id": 1,
-            "place": "Nairobi church",
-            "image": "./assets/images/wedding1.jpg",
-            "dateAndTime": "June 24th 2022, 1000",
-            "description": "Will be attended by a certain number",
-            "numberOfPeople": 200,
-            "cost": "Ksh 100, 000"
-        },
-        {
-            "id": 2,
-            "place": "Juja Courts",
-            "image": "./assets/images/wedding2.jpg",
-            "dateAndTime": "June 25th 2022, 1000",
-            "description": "Will be attended by a certain number",
-            "numberOfPeople": 100,
-            "cost": "Ksh 150, 000"
-        },
-        {
-            "id": 3,
-            "place": "Nairobi church",
-            "image": "./assets/images/wedding3.jpg",
-            "dateAndTime": "June 26th 2022, 1000",
-            "description": "Will be attended by a certain number",
-            "numberOfPeople": 200,
-            "cost": "Ksh 100, 000"
-        }
-    ],
-    "users": [
-        {
-            "id": 1,
-            "userName": "Stanley",
-            "email": "stanleymayore2@gmail.com",
-            "password": "12345678",
-            "confirmPassword": "12345678"
-        }
-    ]
+  "upcomingEvents": [
+    {
+      "id": 1,
+      "name": "Friday Bash",
+      "description": "The will be held at Laviva Lounge on the Friday of this month. The number of people invited is 100. You are allowed in only if invited",
+      "image": "./assets/images/event1.jpg",
+      "time": "June 23th 2022, 1400",
+      "cost": "Ksh 80, 000"
+    },
+    {
+      "id": 2,
+      "name": "Marriage Proposal",
+      "description": "The event will be held at Juja Acarde. ",
+      "image": "./assets/images/event2.jpg",
+      "dateAndTime": "June 24th 2022, 1400",
+      "cost": "Ksh 100, 000"
+    },
+    {
+      "id": 3,
+      "name": "Friends Party",
+      "description": "Will be attended by a certain number",
+      "image": "./assets/images/event3.jpg",
+      "time": "June 26th 2022, 1400",
+      "cost": "Ksh 50, 000"
+    }
+  ],
+  "weddings": [
+    {
+      "id": 1,
+      "place": "Nairobi church",
+      "image": "./assets/images/wedding1.jpg",
+      "dateAndTime": "June 24th 2022, 1000",
+      "description": "Will be attended by a certain number",
+      "numberOfPeople": 200,
+      "cost": "Ksh 100, 000"
+    },
+    {
+      "id": 2,
+      "place": "Juja Courts",
+      "image": "./assets/images/wedding2.jpg",
+      "dateAndTime": "June 25th 2022, 1000",
+      "description": "Will be attended by a certain number",
+      "numberOfPeople": 100,
+      "cost": "Ksh 150, 000"
+    },
+    {
+      "id": 3,
+      "place": "Nairobi church",
+      "image": "./assets/images/wedding3.jpg",
+      "dateAndTime": "June 26th 2022, 1000",
+      "description": "Will be attended by a certain number",
+      "numberOfPeople": 200,
+      "cost": "Ksh 100, 000"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "userName": "Stanley",
+      "email": "stanleymayore2@gmail.com",
+      "password": "12345678",
+      "confirmPassword": "12345678"
+    },
+    {
+      "userName": "",
+      "userEmail": "",
+      "password": "",
+      "confirmPassword": "",
+      "id": 2
+    },
+    {
+      "userName": "",
+      "userEmail": "",
+      "password": "",
+      "confirmPassword": "",
+      "id": 3
+    },
+    {
+      "userName": "",
+      "userEmail": "",
+      "password": "",
+      "confirmPassword": "",
+      "id": 4
+    },
+    {
+      "userName": "",
+      "userEmail": "",
+      "password": "",
+      "confirmPassword": "",
+      "id": 5
+    }
+  ]
 }

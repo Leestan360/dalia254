@@ -17,10 +17,10 @@ const logInRedirect = document.getElementById("logOn")
 
 //signup
 const form = document.getElementById("sign-up");
-const userName = document.getElementById("userName");
-const userEmail = document.getElementById("userEmail");
-const password = document.getElementById("userPassword");
-const confirmPassword = document.getElementById("confirmPassword1");
+const userName = document.getElementById("userName").value;
+const userEmail = document.getElementById("userEmail").value;
+const password = document.getElementById("userPassword").value;
+const confirmPassword = document.getElementById("userPassword1").value;
 const submitButton = document.getElementById("submit")
 
 
@@ -36,84 +36,27 @@ loginButton.addEventListener("click", () => {
 });
 
 
-//Display signup form
+// Display signup form
 signUpButton.addEventListener("click", () => {
     const signUp = document.getElementById("register");
     signUp.style.display = "block";
 });
 
-function renderLogin() {
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
 
-}
+    const newUser = {userName: userName, userEmail: userEmail, password: password, confirmPassword: confirmPassword};
 
-
-function fetchData() {
-    fetch(upcomingEventsData)
-    .then(response => response.json())
-    .then(data => console.log(data))
-}
-
-function fetchWedding() {
-    fetch(upcomingEventsData)
-    .then(response => response.json())
-    .then(data => console.log(data))
-}
-
-
-// Post user to db
-
-const newUser = {
-    username: userName.value,
-    email: userEmail.value,
-    password: password.value,
-    confirmPassword: confirmPassword
-}
-
-function fetchUser(newUser) {
     fetch(usersData, {
         method: "POST",
         headers: {
-            "Content-Type": 'application/json',
+            'Content-Type': 'application/json',
         },
         body: JSON.stringify(newUser)
     })
     .then(response => response.json())
-    .then(newUser => console.log(newUser))
-}
+    .then(data => console.log('Success:', data))
+    .catch(error => console.log(error))
 
-function initializeAll() {
-    fetchUser()
-    fetchData()
-    fetchWedding()
-}
-initializeAll();
-
-// Signup
-setInterval(() => {
-    if (userName.value == "" || userEmail.value == "" ||
-    password.value == "") {
-        submitButton.setAttribute("disabled", "")
-    } else {
-        submitButton.removeAttribute("disabled");
-    }
+    alert("Welcome" + " " + userName)
 })
-
-submitButton.onclick = function () {
-    window.location.href = "../../index.html";
-    alert("Welcome" + " " + userName.value);
-}
-
-// Login
-setInterval(() => {
-    if (username.value == "" || userPassword.value == "") {
-        subButton.setAttribute("disabled", "")
-    } else {
-        subButton.removeAttribute("disabled");
-        fetchUser()
-    }
-})
-
-subButton.onclick = function () {
-    window.location.href = "../../index.html";
-    alert("Welcome back" + " " + username.value);
-}
