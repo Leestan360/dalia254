@@ -42,6 +42,19 @@ signUpButton.addEventListener("click", () => {
     signUp.style.display = "block";
 });
 
+
+// View about event
+// document.getElementById("new").addEventListener("click", () => {
+//     document.
+// })
+
+
+// Home button
+document.getElementById("home1").addEventListener('click', () => {
+    window.location.assign("../../index.html");
+})
+
+
 form.addEventListener('submit', (e) => {
     e.preventDefault();
 
@@ -58,6 +71,7 @@ form.addEventListener('submit', (e) => {
     .then(data => console.log('Success:', data))
     .catch(error => console.log(error))
 
-    window.location.href = "../../index.html"
-    alert("Welcome" + " " + userName.value)
+    alert("Welcome" + " " + userName)
+    window.location.assign("../../index.html")
+    
 })
