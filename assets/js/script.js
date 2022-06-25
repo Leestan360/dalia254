@@ -45,7 +45,7 @@ signUpButton.addEventListener("click", () => {
 form.addEventListener('submit', (e) => {
     e.preventDefault();
 
-    const newUser = {userName: userName, userEmail: userEmail, password: password, confirmPassword: confirmPassword};
+    const newUser = {userName: userName, email: userEmail, password: password, confirmPassword: confirmPassword};
 
     fetch(usersData, {
         method: "POST",
@@ -58,5 +58,6 @@ form.addEventListener('submit', (e) => {
     .then(data => console.log('Success:', data))
     .catch(error => console.log(error))
 
-    alert("Welcome" + " " + userName)
+    window.location.href = "../../index.html"
+    alert("Welcome" + " " + userName.value)
 })
