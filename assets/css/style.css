@@ -426,3 +426,41 @@
     color: #20d4e0;
     font-size: 2rem;
 }
+
+.services3 {
+    width: 50rem;
+    height: 20rem;
+    position: fixed;
+    margin: 6rem;
+    background-image: url("./../images/event2.jpg");
+    top: 0;
+    left: 45%;
+    transform: translateX(-50%);
+    border-radius: 0.7rem;
+    text-align: center;
+    padding: 5rem;
+    display: none;
+}
+
+.services3 h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color:#ff7200;
+}
+
+.services3 h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color:#ff7200;
+}
+
+.services3 p {
+    color: #20d4e0;
+    font-size: 2rem;
+}
+
+.services3 ol {
+    font-size: 3rem;
+    list-style-type: none;
+    color: #ff7200;
+}

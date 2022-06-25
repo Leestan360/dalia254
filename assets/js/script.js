@@ -58,6 +58,9 @@ document.getElementById("home1").addEventListener('click', () => {
     window.location.assign("../../index.html");
 })
 
+document.getElementById("services4").addEventListener('click', () => {
+    document.getElementById("services2").style.display = 'block';
+})
 
 document.getElementById('contact1').addEventListener('click', () => {
     document.getElementById('services').style.display = 'block';
