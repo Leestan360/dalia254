@@ -61,34 +61,6 @@
       "email": "stanleymayore2@gmail.com",
       "password": "12345678",
       "confirmPassword": "12345678"
-    },
-    {
-      "userName": "",
-      "userEmail": "",
-      "password": "",
-      "confirmPassword": "",
-      "id": 2
-    },
-    {
-      "userName": "",
-      "userEmail": "",
-      "password": "",
-      "confirmPassword": "",
-      "id": 3
-    },
-    {
-      "userName": "",
-      "userEmail": "",
-      "password": "",
-      "confirmPassword": "",
-      "id": 4
-    },
-    {
-      "userName": "",
-      "userEmail": "",
-      "password": "",
-      "confirmPassword": "",
-      "id": 5
     }
   ]
 }
