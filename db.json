@@ -58,8 +58,7 @@
         {
             "id": 1,
             "userName": "Stanley",
-            "firstName": "Stanley",
-            "secondName": "Mayore",
+            "email": "stanleymayore2@gmail.com",
             "password": "12345678",
             "confirmPassword": "12345678"
         }
