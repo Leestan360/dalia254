@@ -373,3 +373,56 @@
 .logIn a {
     margin: 0.5rem;
 }
+
+
+.aboutFooter {
+    width: 50rem;
+    height: 20rem;
+    position: fixed;
+    margin: 6rem;
+    background-image: url("./../images/event2.jpg");
+    top: 0;
+    left: 45%;
+    transform: translateX(-50%);
+    border-radius: 0.7rem;
+    text-align: center;
+    padding: 5rem;
+    display: none;
+}
+
+.aboutFooter h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color:#ff7200;
+}
+
+.aboutFooter p {
+    color: #20d4e0;
+    font-size: 1.7rem;
+}
+
+.services1 {
+    width: 50rem;
+    height: 20rem;
+    position: fixed;
+    margin: 6rem;
+    background-image: url("./../images/event2.jpg");
+    top: 0;
+    left: 45%;
+    transform: translateX(-50%);
+    border-radius: 0.7rem;
+    text-align: center;
+    padding: 5rem;
+    display: none;
+}
+
+.services1 h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color:#ff7200;
+}
+
+.services1 p {
+    color: #20d4e0;
+    font-size: 2rem;
+}

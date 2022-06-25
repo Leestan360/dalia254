@@ -49,11 +49,19 @@ signUpButton.addEventListener("click", () => {
 // })
 
 
-// Home button
+// Event listeners for footer buttons
+document.getElementById("about1").addEventListener('click', () => {
+    document.getElementById("charges").style.display = 'block';
+})
+
 document.getElementById("home1").addEventListener('click', () => {
     window.location.assign("../../index.html");
 })
 
+
+document.getElementById('contact1').addEventListener('click', () => {
+    document.getElementById('services').style.display = 'block';
+})
 
 form.addEventListener('submit', (e) => {
     e.preventDefault();
