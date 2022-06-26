@@ -123,7 +123,9 @@ form.addEventListener('submit', (e) => {
     .catch(error => console.log(error))
 
     alert("Welcome" + " " + userName.value)
-    window.location = "../../index.html"
+    // window.location = "../../index.html"
     document.getElementById("userInputName").innerHTML = userName.value;
+    const signUp = document.getElementById("register");
+    signUp.style.display = "none";
 
 })
