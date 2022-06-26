@@ -36,11 +36,24 @@ loginButton.addEventListener("click", () => {
 });
 
 
+// Hide login form
+document.getElementById("x2").addEventListener("click", () => {
+    const signIn = document.getElementById("signIn");
+    signIn.style.display = "none";
+})
+
+
 // Display signup form
 signUpButton.addEventListener("click", () => {
     const signUp = document.getElementById("register");
     signUp.style.display = "block";
 });
+
+// Hide signup form
+document.getElementById("x1").addEventListener("click", () => {
+    const signUp = document.getElementById("register");
+    signUp.style.display = "none";
+})
 
 
 // View about event
@@ -54,6 +67,11 @@ document.getElementById("about1").addEventListener('click', () => {
     document.getElementById("charges").style.display = 'block';
 })
 
+// Hide about us
+document.getElementById("x3").addEventListener('click', () => {
+    document.getElementById("charges").style.display = 'none';
+})
+
 document.getElementById("home1").addEventListener('click', () => {
     window.location.assign("../../index.html");
 })
@@ -62,8 +80,19 @@ document.getElementById("services4").addEventListener('click', () => {
     document.getElementById("services2").style.display = 'block';
 })
 
+
+// Hide services page
+document.getElementById("x5").addEventListener('click', () => {
+    document.getElementById("services2").style.display = 'none';
+})
+
 document.getElementById('contact1').addEventListener('click', () => {
     document.getElementById('services').style.display = 'block';
+})
+
+// Hide Contacts page
+document.getElementById('x4').addEventListener('click', () => {
+    document.getElementById('services').style.display = 'none';
 })
 
 form.addEventListener('submit', (e) => {

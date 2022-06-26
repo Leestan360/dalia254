@@ -213,6 +213,14 @@
     display: none;
 }
 
+.firstX {
+    color:rgb(20, 20, 20);
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    margin-left: 48rem;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 992px) {
     .signUp {
         width: 24rem;
@@ -388,6 +396,13 @@
     text-align: center;
     padding: 5rem;
     display: none;
+}
+
+.secondX {
+    margin-top: -4.3rem;
+    margin-bottom: 4.3rem;
+    margin-left: 51.5rem;
+    cursor: pointer;
 }
 
 .aboutFooter h2 {
