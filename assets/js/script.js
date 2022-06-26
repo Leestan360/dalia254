@@ -17,10 +17,10 @@ const logInRedirect = document.getElementById("logOn")
 
 //signup
 const form = document.getElementById("sign-up");
-const userName = document.getElementById("userName").value;
-const userEmail = document.getElementById("userEmail").value;
-const password = document.getElementById("userPassword").value;
-const confirmPassword = document.getElementById("userPassword1").value;
+const userName = document.getElementById("userName");
+const userEmail = document.getElementById("userEmail");
+const password = document.getElementById("userPassword");
+const confirmPassword = document.getElementById("userPassword1");
 const submitButton = document.getElementById("submit")
 
 
@@ -105,7 +105,7 @@ document.getElementById('x4').addEventListener('click', () => {
 form.addEventListener('submit', (e) => {
     e.preventDefault();
 
-    const newUser = {userName: userName, email: userEmail, password: password, confirmPassword: confirmPassword};
+    const newUser = {userName: userName.value, email: userEmail.value, password: password.value, confirmPassword: confirmPassword.value};
 
     fetch(usersData, {
         method: "POST",
@@ -118,6 +118,6 @@ form.addEventListener('submit', (e) => {
     .then(data => console.log('Success:', data))
     .catch(error => console.log(error))
 
-    alert("Welcome" + " " + userName)
+    alert("Welcome" + " " + userName.value)
     window.location.href = "../../index.html"
 })
