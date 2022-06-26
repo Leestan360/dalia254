@@ -40,10 +40,9 @@ loginButton.addEventListener("click", () => {
 // Login as user 
 subButton.addEventListener("click", () => {
     alert("Welcome" + " " + username.value)
+    document.getElementById("userInputName").innerHTML = username.value;
     const signIn = document.getElementById("signIn");
     signIn.style.display = "none";
-    document.getElementById("userInputName").innerHTML = username.value;
-
 })
 
 
