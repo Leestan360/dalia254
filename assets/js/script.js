@@ -57,9 +57,10 @@ document.getElementById("x1").addEventListener("click", () => {
 
 
 // View about event
-// document.getElementById("new").addEventListener("click", () => {
-//     document.
-// })
+document.getElementById("new").addEventListener("click", () => {
+    document.getElementById("image").style.width = '40rem';
+    document.getElementById("image").style.width = '30rem';
+})
 
 
 // Event listeners for footer buttons
@@ -113,5 +114,4 @@ form.addEventListener('submit', (e) => {
 
     alert("Welcome" + " " + userName)
     window.location.assign("../../index.html")
-    
 })
