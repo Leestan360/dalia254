@@ -14,6 +14,8 @@ const loginButton = document.getElementById("btn1");
 const signUpButton = document.getElementById("btn2");
 const signUpRedirect = document.getElementById("signOn");
 const logInRedirect = document.getElementById("logOn")
+const showName = document.getElementById("userInputName");
+
 
 //signup
 const form = document.getElementById("sign-up");
@@ -39,6 +41,8 @@ loginButton.addEventListener("click", () => {
 subButton.addEventListener("click", () => {
     alert("Welcome" + " " + username.value)
     window.location.href = "../../idex.html"
+    document.getElementById("userInputName").innerHTML = username.value;
+
 })
 
 
@@ -120,4 +124,6 @@ form.addEventListener('submit', (e) => {
 
     alert("Welcome" + " " + userName.value)
     window.location.href = "../../index.html"
+    document.getElementById("userInputName").innerHTML = userName.value;
+
 })
