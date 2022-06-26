@@ -35,6 +35,12 @@ loginButton.addEventListener("click", () => {
     signIn.style.display = "block";
 });
 
+// Login as user 
+subButton.addEventListener("click", () => {
+    alert("Welcome" + " " + username.value)
+    window.location.href = "../../idex.html"
+})
+
 
 // Hide login form
 document.getElementById("x2").addEventListener("click", () => {
@@ -113,5 +119,5 @@ form.addEventListener('submit', (e) => {
     .catch(error => console.log(error))
 
     alert("Welcome" + " " + userName)
-    window.location.assign("../../index.html")
+    window.location.href = "../../index.html"
 })
