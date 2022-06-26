@@ -123,8 +123,7 @@ form.addEventListener('submit', (e) => {
     .catch(error => console.log(error))
 
     alert("Welcome" + " " + userName.value)
-    // window.location.href = "../../index.html"
-    document.getElementById("charges").style.display = 'block';
+    window.location = "../../index.html"
     document.getElementById("userInputName").innerHTML = userName.value;
 
 })
